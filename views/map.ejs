@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Map </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="style.css"/>
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="../public/map.css" type="text/css"/> 
+        <script>src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"</script>
+        <script src="../script/jqueryy.js"></script>
+        <script src="../script/animation.js"></script>
+        <script src="../script/anim.js"></script>
+	     
+	</head>
+	<body id="body">
+        
+		<div id="cadre">
+            <%-include("./partials/menu")%>
+                <div id="menu1">
+                &nbsp;&nbsp;&nbsp;
+                    
+                <span id="span"> Safari adventure </span>
+                <img id="world" src="../image/pic/world.png">
+                <img id="search" src="../image/pic/search.jpg">
+                </div>
+       
+        </div>
+    </br>
+
+            
+                <div id="gallerie">
+                    
+                    <h1 id="police">Map</h1>
+                   <p id="tt"></p>
+                    <div id ="pp">Put the mouse on the photo to see the location you are looking for in the zoo : <span></span></div>
+                    <div id="ft" class=zoom>
+                        <div class="container">
+                            <div class="row">
+                    <img class="col-8" id="map" src="../image/pic/map.jpg">
+                    </div>
+                    <div class="row"></div>
+                    <img class=" choix col-4 d-none d-lg-block" id="balle" src="../image/pic/log.jpg">
+                    <img class=" choix col-2 d-none d-lg-block" id="welcome" src="../image/pic/Welcome.png" >
+                </div>           
+                </div>
+
+                <p>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">visit us</a>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">and spends a nice day</button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">we are waiting for you</button>
+                  </p>
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+                            with our big trip to Africa full of animals, we also offer you: - Restaurants </br> -children's issues</br> -lake </br>-café
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                            it's all in the map </br> come many
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                        </div>
+
+                        
+                    
+                           
+   
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</html>

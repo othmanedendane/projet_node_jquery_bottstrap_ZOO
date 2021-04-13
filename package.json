@@ -1,0 +1,15 @@
+{
+  "name": "projet_trs",
+  "version": "1.0.0",
+  "description": "Projet fin de session",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "othmane dendane",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
